@@ -1,6 +1,7 @@
 package org.kon.game.interfaces;
 
 import org.kon.game.BoardField;
+import org.kon.game.Gates;
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ import java.util.List;
  */
 public interface IGameDatabase {
     List<BoardField> getBoardFields();
+
+    Gates getGates();
 }

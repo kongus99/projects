@@ -31,6 +31,8 @@ public class BoardField {
 
     public void removeClue(int clues) {
         this.clues -= clues;
+        if (this.clues < 0)
+            this.clues = 0;
     }
 
     public void removeAllClues() {

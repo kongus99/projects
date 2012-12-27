@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
-import static org.mockito.Mockito.doReturn;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -29,6 +27,7 @@ public class BoardTest {
     private BoardField redField;
     private BoardField greenField;
     private BoardField streetField;
+    private Gates gates;
 
     @Before
     public void setUp() throws Exception {
@@ -36,6 +35,7 @@ public class BoardTest {
         base = mock(IGameDatabase.class);
         board = new Board(graph, base);
         fields = new ArrayList<>();
+        gates = mock(Gates.class);
         redField = new BoardField(EFieldType.RED);
         greenField = new BoardField(EFieldType.GREEN);
         streetField = new BoardField(EFieldType.STREET);
@@ -43,13 +43,13 @@ public class BoardTest {
         fields.add(redField);
         fields.add(streetField);
         doReturn(fields).when(base).getBoardFields();
+        doReturn(gates).when(base).getGates();
     }
 
     @Test
     public void boardCanBeSetupForUser() throws Exception {
         board.setup();
         verify(graph).drawBoard();
-        verify(base).getBoardFields();
     }
 
     @Test
@@ -63,5 +63,52 @@ public class BoardTest {
         assertEquals(0, streetField.cluesNumber());
     }
 
+    @Test
+    public void initialTerrorLevelIsZero() throws Exception {
+        board.setup();
+        assertEquals(0, board.terrorLevel());
+    }
 
+    @Test
+    public void terrorLevelCanBeIncreased() throws Exception {
+        board.setup();
+        board.increaseTerrorLevel(5);
+        board.increaseTerrorLevel(5);
+        assertEquals(10, board.terrorLevel());
+    }
+
+    @Test
+    public void terrorLevelCanBeDecreased() throws Exception {
+        board.setup();
+        board.increaseTerrorLevel(7);
+        board.decreaseTerrorLevel(5);
+        assertEquals(2, board.terrorLevel());
+    }
+
+    @Test
+    public void terrorLevelCannotBeNegative() throws Exception {
+        board.setup();
+        board.increaseTerrorLevel(5);
+        board.decreaseTerrorLevel(7);
+        assertEquals(0, board.terrorLevel());
+    }
+
+    @Test
+    public void terrorLevelIsResetBySetup() throws Exception {
+        board.setup();
+        assertEquals(0, board.terrorLevel());
+        board.increaseTerrorLevel(5);
+        assertEquals(5, board.terrorLevel());
+        board.setup();
+        assertEquals(0, board.terrorLevel());
+    }
+
+    @Test
+    public void gatesAreRetrievedAndShuffled() throws Exception {
+        board.setup();
+        verify(base).getGates();
+        verify(gates).shuffle();
+
+
+    }
 }

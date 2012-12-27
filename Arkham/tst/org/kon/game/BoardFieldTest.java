@@ -71,5 +71,12 @@ public class BoardFieldTest {
         assertEquals(0, f.cluesNumber());
     }
 
+    @Test
+    public void cluesCannotBeNegativeAndHaveToBeAtLeastZero() {
+        f.addClue(9);
+        f.removeClue(15);
+        assertEquals(0, f.cluesNumber());
+    }
+
 
 }
