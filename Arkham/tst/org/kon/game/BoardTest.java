@@ -34,7 +34,7 @@ public class BoardTest {
         graph = mock(IGameGraphics.class);
         base = mock(IGameDatabase.class);
         board = new Board(graph, base);
-        fields = new ArrayList<>();
+        fields = new ArrayList<BoardField>();
         gates = mock(Gates.class);
         redField = new BoardField(EFieldType.RED);
         greenField = new BoardField(EFieldType.GREEN);

@@ -30,7 +30,7 @@ public class GatesTest {
     @Before
     public void setUp() throws Exception {
         seed = mock(Random.class);
-        listOfGates = new ArrayList<>();
+        listOfGates = new ArrayList<Gate>();
         gate1 = new Gate();
         gate2 = new Gate();
         gate3 = new Gate();
