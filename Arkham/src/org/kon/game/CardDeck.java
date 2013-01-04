@@ -1,5 +1,7 @@
 package org.kon.game;
 
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -10,10 +12,15 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class CardDeck {
+    private final List<Card> deck;
+
     public CardDeck(List<Card> initialCards) {
+        deck = new LinkedList<Card>(initialCards);
     }
 
     public Card draw() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+        if (deck.size() > 0)
+            return deck.remove(0);
+        return null;
     }
 }
