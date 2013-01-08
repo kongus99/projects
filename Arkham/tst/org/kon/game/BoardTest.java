@@ -27,7 +27,7 @@ public class BoardTest {
     private BoardField redField;
     private BoardField greenField;
     private BoardField streetField;
-    private Gates gates;
+    private Deck<Gate> gates;
 
     @Before
     public void setUp() throws Exception {
@@ -35,7 +35,7 @@ public class BoardTest {
         base = mock(IGameDatabase.class);
         board = new Board(graph, base);
         fields = new ArrayList<BoardField>();
-        gates = mock(Gates.class);
+        gates = mock(Deck.class);
         redField = new BoardField(EFieldType.RED);
         greenField = new BoardField(EFieldType.GREEN);
         streetField = new BoardField(EFieldType.STREET);
