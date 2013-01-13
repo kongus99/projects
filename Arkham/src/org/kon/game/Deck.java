@@ -32,16 +32,16 @@ public class Deck<E> {
             moveSingleElement(index);
     }
 
-    private void moveSingleElement(int index) {
-        int moveIndex = randomSeed.nextInt(index);
-        deck.add(deck.remove(moveIndex));
-    }
-
     public E draw(E element) {
         int indexOfElement = deck.indexOf(element);
         if (indexOfElement >= 0)
             return deck.remove(indexOfElement);
         throw new DeckElementNotFound();
+    }
+
+    private void moveSingleElement(int index) {
+        int moveIndex = randomSeed.nextInt(index);
+        deck.add(deck.remove(moveIndex));
     }
 
     public static class NotEnoughDeckElements extends RuntimeException {
