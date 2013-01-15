@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="" />
     <ignored path="Arkham.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/BoardTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633164129" ignored="false" />
     <file path="/CardDeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632984562" ignored="false" />
-    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357804900212" ignored="false" />
+    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252167529" ignored="false" />
     <file path="/CardDeck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632946234" ignored="false" />
-    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357805832944" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252287932" ignored="false" />
     <file path="/GatesTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633486327" ignored="false" />
     <file path="/Gates.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632927752" ignored="false" />
     <file path="/IGameDatabase.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633218118" ignored="false" />
     <file path="/DeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357645977297" ignored="false" />
     <file path="/Deck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357645995143" ignored="false" />
     <file path="/Test.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357646191175" ignored="false" />
-    <file path="/InvestigatorTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357805557072" ignored="false" />
-    <file path="/Investigator.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357805802792" ignored="false" />
+    <file path="/InvestigatorTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252109860" ignored="false" />
+    <file path="/Investigator.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252073101" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +65,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java" line="17" class="org.kon.game.Investigator" package="org.kon.game">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,29 +94,27 @@
       <file leaf-file-name="Deck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/kon/game/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+            <state line="34" column="13" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvestigatorTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InvestigatorTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="59" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+            <state line="40" column="99" selection-start="988" selection-end="988" vertical-scroll-proportion="0.11849192">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#491#0" expanded="true" />
-                <element signature="e#916#928#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Investigator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Investigator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06234719">
+            <state line="23" column="57" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,7 +224,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,19 +281,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="62" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="62" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="62" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="D:/workspaces/Arkham" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="62" />
@@ -303,15 +315,15 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.kon.game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest">
+  <component name="RunManager" selected="JUnit.InvestigatorTest">
     <configuration default="false" name="GatesTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Arkham" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -334,56 +346,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="GatesTest.drawingShouldReturnTheOriginalSequence" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Arkham" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.kon.game" />
-      <option name="MAIN_CLASS_NAME" value="org.kon.game.GatesTest" />
-      <option name="METHOD_NAME" value="drawingShouldReturnTheOriginalSequence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Arkham" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.kon.game" />
       <option name="MAIN_CLASS_NAME" value="org.kon.game.BoardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoardFieldTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Arkham" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.kon.game" />
-      <option name="MAIN_CLASS_NAME" value="org.kon.game.BoardFieldTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -422,6 +390,56 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Arkham" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.kon.game" />
+      <option name="MAIN_CLASS_NAME" value="org.kon.game.InvestigatorTest" />
+      <option name="METHOD_NAME" value="investigatorShouldHaveListOfFixedPossessions" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InvestigatorTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Arkham" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.kon.game" />
+      <option name="MAIN_CLASS_NAME" value="org.kon.game.InvestigatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -434,6 +452,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -461,19 +492,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -512,18 +530,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GatesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GatesTest.drawingShouldReturnTheOriginalSequence" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardFieldTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GatesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardFieldTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GatesTest.drawingShouldReturnTheOriginalSequence" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GatesTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -572,18 +590,22 @@
       <created>1357805840150</created>
       <updated>1357805840150</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Investigator fixed possessions">
+      <created>1358252292568</created>
+      <updated>1358252292568</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.3237454" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.497552" order="8" side_tool="false" content_ui="tabs" />
@@ -593,7 +615,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
@@ -639,7 +661,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deck unified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Investigator fixed possessions" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -655,6 +677,7 @@
     <MESSAGE value="Card added" />
     <MESSAGE value="Deck added" />
     <MESSAGE value="Deck unified" />
+    <MESSAGE value="Investigator fixed possessions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -681,9 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/interfaces/IGameDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/BoardField.java">
@@ -703,13 +724,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/ExpectException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.38345864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/kon/game/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/BoardTest.java">
@@ -754,21 +768,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/org/kon/game/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#491#0" expanded="true" />
-            <element signature="e#916#928#0" expanded="true" />
-          </folding>
+        <state line="34" column="13" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06234719">
+        <state line="23" column="57" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="99" selection-start="988" selection-end="988" vertical-scroll-proportion="0.11849192">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
