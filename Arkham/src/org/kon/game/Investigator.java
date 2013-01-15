@@ -14,9 +14,21 @@ public class Investigator {
     private List<Possession> fixedPossessions;
     private List<Possession> currentPossessions;
 
-    public Investigator(List<Possession> fixedPossessions) {
+    public Investigator(int randomPossessions, List<Possession> fixedPossessions, Deck<Possession> deck) {
         createInventory();
-        assignFixedPossessions(fixedPossessions);
+        assignFixedPossessions(fixedPossessions, deck);
+        assignRandomPossessions(randomPossessions, deck);
+    }
+
+    public boolean has(Possession possession) {
+        return currentPossessions.contains(possession);
+    }
+
+    private void assignRandomPossessions(int randomPossessionsNumber, Deck<Possession> deck) {
+        for (int i = 0; i < randomPossessionsNumber; i++) {
+            Possession p = deck.drawFirst();
+            currentPossessions.add(p);
+        }
     }
 
     private void createInventory() {
@@ -24,17 +36,10 @@ public class Investigator {
         fixedPossessions = new ArrayList();
     }
 
-    private void assignFixedPossessions(List<Possession> possessions) {
-        for (Possession possession : possessions)
-            fixedPossessions.add(possession);
-    }
-
-    public void assignFixedPossessions(Deck<Possession> deck) {
-        for (Possession fixedPossession : fixedPossessions)
-            currentPossessions.add(deck.draw(fixedPossession));
-    }
-
-    public boolean has(Possession possession) {
-        return currentPossessions.contains(possession);
+    private void assignFixedPossessions(List<Possession> possessions, Deck<Possession> deck) {
+        for (Possession possession : possessions) {
+            Possession p = deck.draw(possession);
+            currentPossessions.add(p);
+        }
     }
 }
