@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -44,11 +43,35 @@ public class InvestigatorTest {
 
     @Test
     public void investigatorShouldHaveListOfFixedPossessions() throws Exception {
-        Investigator investigator = new Investigator(possessions.subList(2, 4));
-        investigator.assignFixedPossessions(deck);
-        checkInvestigatorPossessions(investigator, p3, p4);
+        Investigator investigator = new Investigator(0, possessions.subList(2, 4), deck);
+
+        checkInvestigatorPossesses(investigator, p3, p4);
+        checkInvestigatorNotPossesses(investigator, p1, p2);
         checkCardWasRemovedFromDeck(p3);
         checkCardWasRemovedFromDeck(p4);
+        checkCardIsStillInDeck(p1);
+        checkCardIsStillInDeck(p2);
+    }
+
+    @Test
+    public void investigatorShouldHaveRandomPossessions() throws Exception {
+        Investigator investigator = new Investigator(2, possessions.subList(3, 4),deck);
+
+        checkInvestigatorPossesses(investigator, p1, p2, p4);
+        checkInvestigatorNotPossesses(investigator, p3);
+        checkCardWasRemovedFromDeck(p1);
+        checkCardWasRemovedFromDeck(p2);
+        checkCardWasRemovedFromDeck(p4);
+        checkCardIsStillInDeck(p3);
+    }
+
+    private void checkInvestigatorNotPossesses(Investigator investigator, Possession... possessions) {
+        for (Possession possession : possessions)
+            assertFalse(investigator.has(possession));
+    }
+
+    private void checkCardIsStillInDeck(Possession expected) {
+        assertEquals(expected, deck.drawFirst());
     }
 
     private void checkCardWasRemovedFromDeck(Possession p) {
@@ -59,7 +82,7 @@ public class InvestigatorTest {
         }
     }
 
-    private void checkInvestigatorPossessions(Investigator investigator, Possession... possessions) {
+    private void checkInvestigatorPossesses(Investigator investigator, Possession... possessions) {
         for (Possession possession : possessions)
             assertTrue(investigator.has(possession));
     }
