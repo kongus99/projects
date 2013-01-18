@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/kon/game/Skill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/kon/game/SkillSlider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/kon/game/SkillType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arkham.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/BoardTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633164129" ignored="false" />
     <file path="/CardDeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632984562" ignored="false" />
-    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252167529" ignored="false" />
+    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495737867" ignored="false" />
     <file path="/CardDeck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632946234" ignored="false" />
     <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358494272242" ignored="false" />
     <file path="/GatesTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633486327" ignored="false" />
@@ -17,8 +21,12 @@
     <file path="/DeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357645977297" ignored="false" />
     <file path="/Deck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357645995143" ignored="false" />
     <file path="/Test.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357646191175" ignored="false" />
-    <file path="/InvestigatorTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252109860" ignored="false" />
+    <file path="/InvestigatorTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495256977" ignored="false" />
     <file path="/Investigator.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358252073101" ignored="false" />
+    <file path="/SkillSliderTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358497736780" ignored="false" />
+    <file path="/Skill.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495816881" ignored="false" />
+    <file path="/SkillType.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495779385" ignored="false" />
+    <file path="/SkillSlider.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358497749610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +110,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvestigatorTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InvestigatorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="49" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.34282324">
+            <state line="60" column="17" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkillSliderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Skill.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/kon/game/Skill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkillType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkillSlider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillSlider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="47" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3626571">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,15 +163,6 @@
         <entry file="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="57" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Possession.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/kon/game/Possession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,9 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Arkham.iml" />
-        <option value="$PROJECT_DIR$/src/org/kon/game/Card.java" />
-        <option value="$PROJECT_DIR$/src/org/kon/game/Board.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/CardDeck.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/Gates.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/CardDeckTest.java" />
@@ -189,8 +223,12 @@
         <option value="$PROJECT_DIR$/src/org/kon/game/Deck.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/Investigator.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/Test.java" />
-        <option value="$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/Investigator.java" />
+        <option value="$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java" />
+        <option value="$PROJECT_DIR$/src/org/kon/game/SkillType.java" />
+        <option value="$PROJECT_DIR$/src/org/kon/game/Skill.java" />
+        <option value="$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java" />
+        <option value="$PROJECT_DIR$/src/org/kon/game/SkillSlider.java" />
       </list>
     </option>
   </component>
@@ -325,29 +363,7 @@
       <recent name="org.kon.game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvestigatorTest">
-    <configuration default="false" name="GatesTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Arkham" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.kon.game" />
-      <option name="MAIN_CLASS_NAME" value="org.kon.game.GatesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SkillSliderTest">
     <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Arkham" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -426,6 +442,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.kon.game" />
       <option name="MAIN_CLASS_NAME" value="org.kon.game.InvestigatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SkillSliderTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Arkham" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.kon.game" />
+      <option name="MAIN_CLASS_NAME" value="org.kon.game.SkillSliderTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -531,19 +569,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GatesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GatesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -600,27 +638,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.3237454" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.497552" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.48041615" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.48041615" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -689,26 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="5005" selection-end="5005" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/ComparisonCriteria.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_07/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="593" column="40" selection-start="25275" selection-end="25275" vertical-scroll-proportion="0.030520646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/kon/game/interfaces/IGameDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/BoardField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="40" selection-start="302" selection-end="302" vertical-scroll-proportion="0.030520646">
@@ -786,10 +804,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="49" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.34282324">
+        <state line="60" column="17" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/kon/game/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="47" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3626571">
+          <folding />
         </state>
       </provider>
     </entry>
