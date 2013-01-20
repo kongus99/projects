@@ -3,7 +3,7 @@ package org.kon.game;
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -41,14 +41,35 @@ public class SkillSliderTest {
 
     @Test
     public void skillSlidersCanBeAdjustedRightUpToThreeTimes() throws Exception {
-        slider.moveRight(3);
-        assertEquals(0,slider.skillValue(SkillType.SPEED));
-        assertEquals(4,slider.skillValue(SkillType.SNEAK));
+        slider.adjustRight(3);
+        assertEquals(0, slider.skillValue(SkillType.SPEED));
+        assertEquals(4, slider.skillValue(SkillType.SNEAK));
     }
 
     @Test(expected = SkillSlider.SkillAdjustmentOutOfRange.class)
     public void skillSlidersCannotBeAdjustedRightMoreThanThreeTimes() throws Exception {
-        slider.moveRight(4);
+        slider.adjustRight(4);
+    }
+
+    @Test(expected = SkillSlider.SkillAdjustmentOutOfRange.class)
+    public void skillSlidersCannotBeAdjustedLeftBelowBaseValues() throws Exception {
+        slider.adjustLeft(1);
+    }
+
+    @Test
+    public void skillSlidersCanBeAdjustedRightAndLeft() throws Exception {
+        slider.adjustRight(3);
+        slider.adjustLeft(2);
+        assertEquals(2, slider.skillValue(SkillType.SPEED));
+        assertEquals(2, slider.skillValue(SkillType.SNEAK));
+    }
+
+    @Test
+    public void slidersCanBeCheckedForSkillsTheyContain() throws Exception {
+        assertTrue(slider.contains(SkillType.SPEED));
+        assertTrue(slider.contains(SkillType.SNEAK));
+        assertFalse(slider.contains(SkillType.FIGHT));
+
     }
 
 }

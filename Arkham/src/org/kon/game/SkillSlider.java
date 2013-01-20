@@ -8,37 +8,49 @@ package org.kon.game;
  * To change this template use File | Settings | File Templates.
  */
 public class SkillSlider {
+    public static final int MAX_ADJUSTMENT = 3;
+    public static final int MIN_ADJUSTMENT = 0;
     private final Skill firstSkill;
     private final Skill secondSkill;
-
-    private int firstSkillCurrentValue;
-
-    private int secondSkillCurrentValue;
-
+    private int skillAdjustment;
 
     public SkillSlider(Skill firstSkill, Skill secondSkill) {
         this.firstSkill = firstSkill;
         this.secondSkill = secondSkill;
-        firstSkillCurrentValue = firstSkill.baseValue;
-        secondSkillCurrentValue = secondSkill.baseValue;
+        skillAdjustment = MIN_ADJUSTMENT;
     }
 
-    public void moveRight(int movesNumber) {
-        firstSkillCurrentValue -= movesNumber;
-        secondSkillCurrentValue += movesNumber;
+    public void adjustRight(int adjustment) {
+        int newValue = skillAdjustment + adjustment;
+        if (newValue > MAX_ADJUSTMENT)
+            throw new SkillAdjustmentOutOfRange();
+        skillAdjustment = newValue;
+    }
+
+    public void adjustLeft(int adjustment) {
+        int newValue = skillAdjustment - adjustment;
+        if (newValue < MIN_ADJUSTMENT)
+            throw new SkillAdjustmentOutOfRange();
+        skillAdjustment = newValue;
     }
 
     public int skillValue(SkillType type) {
         if (firstSkill.type == type)
-            return firstSkillCurrentValue;
+            return firstSkill.baseValue - skillAdjustment;
         if (secondSkill.type == type)
-            return secondSkillCurrentValue;
+            return secondSkill.baseValue + skillAdjustment;
         throw new SkillNotOnThisSlider();
+    }
+
+    public boolean contains(SkillType type) {
+        if (firstSkill.type == type || secondSkill.type == type)
+            return true;
+        return false;
     }
 
     public static class SkillNotOnThisSlider extends RuntimeException {
     }
 
-    public static class SkillAdjustmentOutOfRange extends RuntimeException{
+    public static class SkillAdjustmentOutOfRange extends RuntimeException {
     }
 }
