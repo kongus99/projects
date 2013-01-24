@@ -10,28 +10,21 @@ package org.kon.game;
 public class Focus {
     private final int maxFocusValue;
     private final SkillSlider[] sliders;
-    private int currentFocus;
+
 
     public Focus(int focusValue, SkillSlider... sliders) {
-        maxFocusValue = focusValue;
-        currentFocus = focusValue;
         this.sliders = sliders;
+        maxFocusValue = focusValue;
     }
 
     public void adjustSkill(SkillType type, int adjustment) {
-        SkillSlider slider = findSlider(type);
-        slider.adjustRight(adjustment);
-        currentFocus -= adjustment;
     }
 
-    private SkillSlider findSlider(SkillType type) {
-        for (SkillSlider slider : sliders)
-            if (slider.contains(type))
-                return slider;
-        return null;
+    public SkillSlider findSlider(SkillType type) {
+         return null;
     }
 
     public int remaining() {
-        return currentFocus;
+        return -1;
     }
 }
