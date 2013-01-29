@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mockito-all-1.9.5.jar" />
-      <change type="DELETED" beforePath="D:\userdata\ldudek\My Documents\GitHub\projects\Arkham\.idea\libraries\mockito_all_1_9_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arkham.iml" afterPath="$PROJECT_DIR$/Arkham.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/kon/game/Focus.java" afterPath="$PROJECT_DIR$/src/org/kon/game/Focus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" afterPath="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arkham.iws" />
@@ -16,7 +10,7 @@
     <file path="/CardDeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632984562" ignored="false" />
     <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462179212" ignored="false" />
     <file path="/CardDeck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632946234" ignored="false" />
-    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462622687" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462660136" ignored="false" />
     <file path="/GatesTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633486327" ignored="false" />
     <file path="/Gates.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632927752" ignored="false" />
     <file path="/IGameDatabase.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633218118" ignored="false" />
@@ -117,7 +111,7 @@
       <file leaf-file-name="FocusTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="51" selection-start="447" selection-end="447" vertical-scroll-proportion="0.54039496">
+            <state line="25" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.17594256">
               <folding />
             </state>
           </provider>
@@ -540,11 +534,15 @@
       <created>1359042386964</created>
       <updated>1359042386964</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Libs fixed">
+      <created>1359462666187</created>
+      <updated>1359462666187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -607,7 +605,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skill Sliders first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Libs fixed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -625,6 +623,7 @@
     <MESSAGE value="Deck unified" />
     <MESSAGE value="Investigator fixed possessions" />
     <MESSAGE value="Skill Sliders first version" />
+    <MESSAGE value="Libs fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="447" selection-end="447" vertical-scroll-proportion="0.54039496">
+        <state line="25" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.17594256">
           <folding />
         </state>
       </provider>
