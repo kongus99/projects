@@ -21,6 +21,9 @@ public class Focus {
     }
 
     public SkillSlider findSlider(SkillType type) {
+        for (SkillSlider slider : sliders)
+            if (slider.contains(type))
+                return slider;
         throw new SkillNotFoundException();
     }
 
