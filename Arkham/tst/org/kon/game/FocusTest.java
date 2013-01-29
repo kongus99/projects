@@ -3,8 +3,6 @@ package org.kon.game;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Kongus
@@ -38,11 +36,11 @@ public class FocusTest {
         focus = new Focus(10, slider1, slider2, slider3);
     }
 
-    @Test
-    public void focusContainsSeveralSliders() throws Exception {
-        focus.adjustSkill(SkillType.SPEED, 2);
-
-
-
+    @Test(expected = Focus.SkillNotFoundException.class)
+    public void focusShouldThrowExceptionWhenThereAreNoSkills() throws Exception {
+        focus = new Focus(10);
+        focus.findSlider(SkillType.SPEED);
     }
+
+
 }

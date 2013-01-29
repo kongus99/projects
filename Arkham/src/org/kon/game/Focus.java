@@ -21,10 +21,14 @@ public class Focus {
     }
 
     public SkillSlider findSlider(SkillType type) {
-         return null;
+        throw new SkillNotFoundException();
     }
 
     public int remaining() {
         return -1;
     }
+
+    public static class SkillNotFoundException extends RuntimeException {
+    }
+
 }

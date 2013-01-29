@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mockito-all-1.9.5.jar" />
+      <change type="DELETED" beforePath="D:\userdata\ldudek\My Documents\GitHub\projects\Arkham\.idea\libraries\mockito_all_1_9_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arkham.iml" afterPath="$PROJECT_DIR$/Arkham.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/kon/game/Focus.java" afterPath="$PROJECT_DIR$/src/org/kon/game/Focus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" afterPath="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arkham.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/BoardTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633164129" ignored="false" />
     <file path="/CardDeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632984562" ignored="false" />
-    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495737867" ignored="false" />
+    <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462179212" ignored="false" />
     <file path="/CardDeck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632946234" ignored="false" />
-    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359042375731" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462622687" ignored="false" />
     <file path="/GatesTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633486327" ignored="false" />
     <file path="/Gates.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632927752" ignored="false" />
     <file path="/IGameDatabase.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633218118" ignored="false" />
@@ -23,8 +29,8 @@
     <file path="/Skill.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495816881" ignored="false" />
     <file path="/SkillType.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495779385" ignored="false" />
     <file path="/SkillSlider.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358497749610" ignored="false" />
-    <file path="/FocusTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359015302054" ignored="false" />
-    <file path="/Focus.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359015496934" ignored="false" />
+    <file path="/FocusTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462172527" ignored="false" />
+    <file path="/Focus.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462479962" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +45,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java" line="17" class="org.kon.game.Investigator" package="org.kon.game">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -90,6 +80,22 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/kon/game/Investigator.java" line="17" class="org.kon.game.Investigator" package="org.kon.game">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -102,7 +108,7 @@
       <file leaf-file-name="Focus.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/kon/game/Focus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
+            <state line="23" column="45" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +117,7 @@
       <file leaf-file-name="FocusTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.826809">
+            <state line="20" column="51" selection-start="447" selection-end="447" vertical-scroll-proportion="0.54039496">
               <folding />
             </state>
           </provider>
@@ -149,8 +155,8 @@
         <option value="$PROJECT_DIR$/src/org/kon/game/Skill.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/SkillSlider.java" />
-        <option value="$PROJECT_DIR$/src/org/kon/game/Focus.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" />
+        <option value="$PROJECT_DIR$/src/org/kon/game/Focus.java" />
       </list>
     </option>
   </component>
@@ -174,7 +180,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -189,7 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,45 +214,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arkham" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arkham" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tst" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arkham" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arkham" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +230,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="D:/workspaces/Arkham" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/mockito-all-1.9.5.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="62" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="606" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="596" />
@@ -277,40 +247,21 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="copyright.filetypes.JAVA" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\userdata\ldudek\My Documents\GitHub\projects\Arkham\libs" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.kon.game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SkillSliderTest">
-    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Arkham" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.kon.game" />
-      <option name="MAIN_CLASS_NAME" value="org.kon.game.BoardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FocusTest">
     <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Arkham" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -389,6 +340,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.kon.game" />
       <option name="MAIN_CLASS_NAME" value="org.kon.game.SkillSliderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FocusTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Arkham" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.kon.game" />
+      <option name="MAIN_CLASS_NAME" value="org.kon.game.FocusTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -494,19 +467,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FocusTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FocusTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SkillSliderTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InvestigatorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InvestigatorTest.investigatorShouldHaveListOfFixedPossessions" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -582,13 +555,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.3237454" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.497552" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.48041615" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.48041615" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
@@ -675,37 +648,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Gate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.27468583">
-          <folding />
-        </state>
+        <state line="9" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.27468583" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Possession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="41" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/EFieldType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.17626728">
-          <folding />
-        </state>
+        <state line="9" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.17626728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="398" selection-end="398" vertical-scroll-proportion="0.21658987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tst/org/kon/game/DeckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="45" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.764977">
-          <folding />
-        </state>
+        <state line="15" column="51" selection-start="398" selection-end="398" vertical-scroll-proportion="0.21658987" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Deck.java">
@@ -724,49 +682,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/InvestigatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="17" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="60" column="17" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Skill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillSlider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="359" selection-end="359" vertical-scroll-proportion="0.2937788">
-          <folding />
+        <state line="15" column="74" selection-start="359" selection-end="359" vertical-scroll-proportion="0.2937788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst/org/kon/game/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="67" selection-start="461" selection-end="461" vertical-scroll-proportion="0.61041296">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Focus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
+        <state line="23" column="45" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.826809">
+        <state line="20" column="51" selection-start="447" selection-end="447" vertical-scroll-proportion="0.54039496">
           <folding />
         </state>
       </provider>
@@ -800,6 +757,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>ECLIPSE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
