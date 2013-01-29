@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" name="Default" comment="" />
     <ignored path="Arkham.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/BoardTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633164129" ignored="false" />
     <file path="/CardDeckTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632984562" ignored="false" />
     <file path="/fragment.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462179212" ignored="false" />
     <file path="/CardDeck.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632946234" ignored="false" />
-    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462660136" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359463443862" ignored="false" />
     <file path="/GatesTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633486327" ignored="false" />
     <file path="/Gates.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357632927752" ignored="false" />
     <file path="/IGameDatabase.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1357633218118" ignored="false" />
@@ -23,8 +21,9 @@
     <file path="/Skill.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495816881" ignored="false" />
     <file path="/SkillType.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358495779385" ignored="false" />
     <file path="/SkillSlider.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1358497749610" ignored="false" />
-    <file path="/FocusTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462172527" ignored="false" />
-    <file path="/Focus.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359462479962" ignored="false" />
+    <file path="/FocusTest.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359463401088" ignored="false" />
+    <file path="/Focus.java" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359463112092" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1ff20a5c-6479-4d09-81dc-49e7f798f0a1" time="1359463431803" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       <file leaf-file-name="Focus.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/kon/game/Focus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+            <state line="25" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +110,7 @@
       <file leaf-file-name="FocusTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.17594256">
+            <state line="57" column="65" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.51166964">
               <folding />
             </state>
           </provider>
@@ -149,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/org/kon/game/Skill.java" />
         <option value="$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/SkillSlider.java" />
-        <option value="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" />
         <option value="$PROJECT_DIR$/src/org/kon/game/Focus.java" />
+        <option value="$PROJECT_DIR$/tst/org/kon/game/FocusTest.java" />
       </list>
     </option>
   </component>
@@ -538,7 +537,11 @@
       <created>1359462666187</created>
       <updated>1359462666187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Focus next step">
+      <created>1359463446781</created>
+      <updated>1359463446781</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -548,6 +551,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.3237454" order="10" side_tool="true" content_ui="tabs" />
@@ -562,7 +566,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.6719706" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49265605" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -605,7 +608,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Libs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Focus next step" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -624,6 +627,7 @@
     <MESSAGE value="Investigator fixed possessions" />
     <MESSAGE value="Skill Sliders first version" />
     <MESSAGE value="Libs fixed" />
+    <MESSAGE value="Focus next step" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -647,7 +651,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Gate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.27468583" />
+        <state line="9" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.27468583">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Possession.java">
@@ -657,7 +663,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/EFieldType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.17626728" />
+        <state line="9" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.17626728">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Board.java">
@@ -686,22 +694,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" />
+        <state line="11" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Skill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" />
+        <state line="16" column="46" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/SkillSliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0" />
+        <state line="50" column="19" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/SkillSlider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="359" selection-end="359" vertical-scroll-proportion="0.2937788" />
+        <state line="15" column="74" selection-start="359" selection-end="359" vertical-scroll-proportion="0.2937788">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/DeckTest.java">
@@ -715,14 +731,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/kon/game/Focus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+        <state line="25" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/kon/game/FocusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.17594256">
+        <state line="57" column="65" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.51166964">
           <folding />
         </state>
       </provider>
